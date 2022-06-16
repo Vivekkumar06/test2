@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.navleft{
+display: flex;
+background-color: black;
+color: white;
+} 
+
+
+.container {
+    padding: 0 5vw;
+    background-color: black;
+
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: white;
+
+}
+
+.container > nav {
+  justify-content: space-between;
+  display: flex;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+
+.navright{
+display: flex;
+background-color: black;
+color: white;
+}
+.navright > div {
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 20px;
+    
+}
+
+.navright > input {
+    padding-right: 10px;
+    height: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 20vw;
+    
+    border: none;
+    background: #f5f5f6;
+ 
+}
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <div class="navleft">
+              <h2>Reebok</h2>
+                
+             </ul>
+            </div>
+            <div class="navright">
+                <input placeholder="Search for products, brands and more" type="text">
+                <div class="profile">Profile</div>
+                <div class="wish">SignUp</div>
+                <div class="bag">Login</div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
